@@ -1,0 +1,40 @@
+.cellFruit, .cellMeat, .cellFlower {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    border: 2px solid black;
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.cellFruit {
+    background-color: red;
+    margin-left: 8%;
+}
+
+.cellMeat {
+    background-color: aqua;
+}
+
+.cellFlower {
+    background-color: yellow;
+}
+
+button {
+    background-color: grey;
+    text-align: center;
+    box-shadow: 6px 6px 3px #888888;
+    width: 100%;
+    height: 60px;
+    border-bottom-color: darkgray;
+    border-right-color: darkgray;
+    margin-bottom: 5px;
+}
+
+li {
+    list-style-type: none;
+}

@@ -1,0 +1,39 @@
+.highlight {
+    color: red;
+    font-style: italic;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.category {
+    border: 1px solid blue;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+ul {
+    background-color: skyblue;
+}
+
+body {
+    font-family: Arial;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+#section_about {
+    line-height: 0.8;
+}
+
+.category p {
+    font-size: 0.875em;
+}
