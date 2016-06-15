@@ -1,0 +1,50 @@
+.tableEntry {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    float: left;
+    background-color: lightblue;
+}
+
+ul.tableList {
+    display: table;
+    margin: auto;
+}
+
+ul.tableList li {
+    list-style: none;
+    display: table-row;
+}
+
+.list {
+    background-color: lightgreen;
+    list-style: none;
+    border: 2px solid black;
+}
+
+.listEntry,
+.listEntry1,
+.listEntry2,
+.listEntry3 {
+    float: left;
+    display: table;
+    margin: auto;
+}
+
+.listEntry li,
+.listEntry1 li,
+.listEntry2 li,
+.listEntry3 li {
+    list-style: none;
+    display: table-row;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
