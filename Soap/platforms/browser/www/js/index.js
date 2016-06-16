@@ -101,12 +101,12 @@ function showTrainTable(result) {
 
     console.log("north and south are set");
 
-    var output = "<div class='table'> <h1>Northbound</h1><br> <div class='row'>";
+    var output = "<div class='table'> <h1>Northbound:</h1> <div class='row'>";
     for (i = 0; i < northbound.length; i++) {
         output += "<div class='cell1 border block'>" + northbound[i].train_id + ": " + northbound[i].destination + "</div>";
     }
 
-    output += "</div><h1>Southbound</h1><br> <div class='row'>";
+    output += "</div><h1>Southbound:</h1> <div class='row'>";
     for (i = 0; i < southbound.length; i++) {
         output += "<div class='cell2 border block'>";
         output += southbound[i].train_id + ": " + southbound[i].destination + "</div>";
