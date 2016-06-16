@@ -15,12 +15,18 @@
     display: table-cell;
     padding: 5px;
     background-color: red;
+    width: auto;
+    height: auto;
+    text-align: center;
 }
 
 .cell2 {
     display: table-cell;
     padding: 5px;
     background-color: blue;
+    width: auto;
+    height: auto;
+    text-align: center;
 }
 
 .border {
