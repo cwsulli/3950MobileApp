@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "caseywsullivan.wordpress.com"
+        }
+    }
+}
