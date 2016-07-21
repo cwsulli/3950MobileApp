@@ -485,7 +485,7 @@ module.exports.metadata =
     "cordova-plugin-statusbar": "2.1.3",
     "cordova-plugin-vibration": "2.1.1",
     "cordova-plugin-whitelist": "1.2.2",
-    "phonegap-plugin-barcodescanner": "6.0.1"
+    "phonegap-plugin-barcodescanner": "5.0.1"
 };
 // BOTTOM OF METADATA
 });

@@ -1,7 +1,14 @@
-.show {
-    display: inline-block;
+
+.show
+{
+	display: inline-block;
 }
 
-.hide {
-    display: none;
+.hide
+{
+	display: none;
+}
+.page
+{
+	
 }

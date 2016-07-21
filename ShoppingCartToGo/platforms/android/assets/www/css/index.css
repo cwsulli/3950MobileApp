@@ -5,3 +5,50 @@
 .hide {
     display: none;
 }
+
+.old {
+    display: none;
+}
+
+.table {
+    display: table;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell1 {
+    display: table-cell;
+    padding: 5px;
+    background-color: red;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.cell2 {
+    display: table-cell;
+    padding: 5px;
+    background-color: blue;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.vhidden {
+    visibility: hidden;
+}

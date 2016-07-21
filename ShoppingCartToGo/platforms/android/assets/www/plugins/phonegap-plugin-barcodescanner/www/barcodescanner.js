@@ -10,8 +10,6 @@ cordova.define("phonegap-plugin-barcodescanner.BarcodeScanner", function(require
 
         var exec = require("cordova/exec");
 
-        var scanInProgress = false;
-
         /**
          * Constructor.
          *
@@ -100,26 +98,7 @@ BarcodeScanner.prototype.scan = function (successCallback, errorCallback, config
                 return;
             }
 
-            if (scanInProgress) {
-                errorCallback('Scan is already in progress');
-                return;
-            }
-
-            scanInProgress = true;
-
-            exec(
-                function(result) {
-                    scanInProgress = false;
-                    successCallback(result);
-                },
-                function(error) {
-                    scanInProgress = false;
-                    errorCallback(error);
-                },
-                'BarcodeScanner',
-                'scan',
-                config
-            );
+    exec(successCallback, errorCallback, 'BarcodeScanner', 'scan', config);
         };
 
         //-------------------------------------------------------------------
