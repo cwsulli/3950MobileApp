@@ -85,8 +85,8 @@
     <splash density="port-xxxhdpi" src="www/res/screen/android/drawable-port-xxxhdpi-screen.png" />
     <allow-intent href="market:*" />
     <name>LocalStorageWithScanner</name>
-    <description>Hello World sample application that responds to the deviceready event.</description>
-    <author email="support@phonegap.com" href="http://phonegap.com">PhoneGap Team</author>
+    <description>This application provides a barcode scanner which will then locally store the information on the device.</description>
+    <author email="casey.sullivan1@bobcats.gcsu.edu" href="http://caseywsullivan.wordpress.com">Casey Sullivan</author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
